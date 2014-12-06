@@ -60,11 +60,11 @@ echo ""
 echo "fetch required python packages"
 echo ""
 
-pip install -r /vagrant_data/pip_requirements.txt
-pip3 install -r /vagrant_data/pip_requirements.txt
+sudo pip install -r /vagrant_data/pip_requirements.txt
+sudo pip3 install -r /vagrant_data/pip_requirements.txt
 
 
 echo ""
 echo "cleanup"
 echo ""
-apt-get clean
+sudo apt-get clean

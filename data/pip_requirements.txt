@@ -1,2 +1,4 @@
 Django==1.7.1
 psycopg2==2.5.4
+beautifulsoup4==4.3.2
+defusedxml==0.4.1
